@@ -1,0 +1,209 @@
+# Fichero de configuracion del idioma en lenguaje Norwegian
+#
+# Los comentarios han de ser precedidos por el caracter #
+#
+# Los mensajes de error e informacion al usuario deben ir precedidos por la 
+# clave
+# MsgInfoXXXX=mensaje
+#
+# Los titulos de los formularios deben ir precedidos por la clave
+# FrmCaption(NOMBRE_FORMULARIO)=titulo
+#
+# Importante: 1) Los textos *NO* deben tener los caracteres "(", ")" o "="
+#             Si quieres poner ( ) usa [ ]. ex: [2 Jugadores] en lugar de (2 Jugadores)
+#	      2) No se debe dejar ningun espacio en blanco entre el =
+#		ex: mnuA =texto    <- MAL
+#		    mnuA= Texto    <- MAL
+#		    mnuA = Texto   <- MAL
+#		    mnuA=Texto     <- OK
+#
+# Translation file by: Vegard Krog Petersen <vkp@start.no>
+#------------------------------------------
+# Starup-Video config
+lblInitializeInfo(0)=vbMahjongg har oppdaget at ditt skjermkorts konfigurasjon er som følger:
+lblInitializeInfo(1)=Det er nødvendig med en skjermoppløsning på minimum 1024x768 for å kunne spille dette spillet
+lblInitializeInfo(2)=vbMahjongg vil nå prøve å endre din skjermoppløsning til:
+lblInitializeInfo(3)=Hvis ikke skjermoppløsningen er korrekt etter at du klikket på 'Endre', må du trykke på 'Enter' tasten for få tilbake den opprinnelige skjermoppløsningen
+lblInitializeInfo(4)=Optimal skjermoppløsning funnet:
+cmdOkInitialize=Endre
+cmdEXITInitialize=Avslutt
+lblInfoNotAvailableRes=Ditt skjermkort eller skjerm støtter ikke en oppløsning på 1024 x 768 !!! Du kan ikke starte vbMajongg med ditt nåværende oppsett.
+lblInitVideoSkiping=Hopper over............
+#------------------------------------------
+# Form Video Change
+lblInfoVideoChange=Kan dette vinduet vises?
+cmdVideoChanYES=JA
+cmdVideoChanNO=Endre til en annen skjermoppløsning
+lblVideoAuto=Endre skjermoppløsning automatisk ved neste oppstart.
+#------------------------------------------
+
+# Menu Diseño Piezas
+mnuDessingExit=Avslutt
+mnuMDessingExit(0)=Lagre
+mnuMDessingExit(1)=Lagre som...
+mnuMDessingExit(2)=Spill nå!
+mnuMDessingExit(4)=Avslutt
+
+mnuMoveDessing=Flytt layout / brett
+mnuMMoveDessing(0)=Flytte til venstre <
+mnuMMoveDessing(1)=Flytte til høyre >
+mnuMMoveDessing(2)=Flytte opp /\
+mnuMMoveDessing(3)=Flytte ned \/
+#------------------------------------------
+# ToolBar
+lblToolNew(0)=Nytt spill
+lblToolNew(1)=Nytt spill
+lblToolBack(0)=Tilbake
+lblToolBack(1)=Tilbake
+lblToolHint(0)=Hint
+lblToolHint(1)=Hint
+lblToolReorder(0)=Stokke
+lblToolReorder(1)=Stokke
+lblToolPause(0)=Pause
+lblToolPause(1)=Pause
+lblToolMusic(0)=Musikk
+lblToolMusic(1)=Musikk
+lblToolDessings(0)=Layout
+lblToolDessings(1)=Layout
+lblToolHallFame(0)=Meritter
+lblToolHallFame(1)=Meritter
+lblToolHelp(0)=Hjelp
+lblToolHelp(1)=Hjelp
+lblToolExit(0)=Avslutt
+lblToolExit(1)=Avslutt
+#------------------------------------------
+# Hall Fame Form
+lblHFSelectBoard=Velg en layout
+lblHallFameInputPlayerName=Navn på spiller
+lblHallFameInfoPlayerName=Spillerens navn
+lblHallFameInfoTime=Tid
+lblHallFameDate=Dato
+cmdHallFameErase=Slett resultatene
+cmdHallFameOk=Ok
+#------------------------------------------
+# Previus Hall Fame Form
+lblprevHFcongratulations(0)=Gratulerer!
+lblprevHFcongratulations(1)=Du avsluttet med stil!
+lblprevHFcongratulations(2)=Og klarte en plass i 'Hall of Fame!'
+lblprevHFcongratulations(3)=Din tid var
+cmdprevHFAction=Takk!
+#------------------------------------------
+# Menu Principal
+mnuGame=Spill
+mnuMGame(0)=Nytt spill
+mnuMGame(2)=Tilfeldig valgt layout
+mnuMGame(4)=Last spill
+mnuMGame(5)=Lagre spill
+mnuMGame(7)=Avslutt
+# Menu Principal -> Juego -> Nuevo
+mnuMNewGame(0)=Forrige spill
+mnuMNewGame(2)=Mahjongg
+mnuMNewGame(3)=Mahjongg Time Attack
+mnuMNewGame(4)=Mahjongg [2 spillere]
+mnuMNewGame(5)=Mahjongg [Internett/Lan]
+mnuMNewGame(7)=Memory [minne]
+# Menu Memory
+mnuMMemory(0)=Enkelt
+mnuMMemory(1)=Vanskelig
+mnuMMemory(2)=Ekstremt vanskelig!
+mnuMNewGame(9)=Clicks
+
+# Menu Ver
+mnuView=View
+# Ver -> Numeros y letras
+mnuMView(0)=Vis tall og bokstaver pa brikkene
+# Menu Configuracion
+mnuConfig=Oppsett
+mnuMConfig(0)=Mahjongg nivå
+mnuMConfig(2)=Språk
+# Menu Configuracion -> Dificultad Mahjongg
+mnuLevelMahjongg(0)=Enkelt
+mnuLevelMahjongg(1)=Vanskelig
+mnuMConfig(4)=Dato format
+mnuMConfig(6)=Valgt brikkes rammefarge
+# Menu Configuracion -> Destacar
+mnuHighlight(0)=Ingenting
+mnuHighlight(2)=Rød rektangel
+mnuHighlight(3)=Grønn rektangel
+mnuHighlight(4)=Blå rektangel
+mnuMConfig(8)=Spill musikk når spillet starter
+mnuMConfig(9)=Lydeffekter
+mnuMConfig(10)=Start musikk
+mnuMConfig(11)=Endre oppløsning automatisk
+
+# Menu Fondo Escritorio
+mnuBackGround=Bakgrunn
+mnuMBackGround(0)=Velg fra diskett eller harddisk
+mnuMBackGround(1)=Enkel farge
+
+# Menu Elige Ficha
+mnuTiles=Velg brikkesett
+mnuMTiles(0)=Velg fra diskett eller harddisk
+mnuMTiles(1)=Forhåndsvisning av brikkene
+
+# Menu Diseño
+mnuDessing=Layout
+mnuMDessing(0)=Velg layout
+mnuMDessing(1)=Ny layout
+mnuMDessing(2)=Endre layout
+mnuMDessing(3)=Favoritter
+
+# Menu Musica
+mnuMusic=Musikk
+mnuMMusic(0)=Tilfeldig valgt musikk
+
+# Menu Ayuda
+mnuHelp=Hjelp
+#------------------------------------------
+# Formulario de Seleccion de Diseño
+lblPrevSelectBackGND=Velg med nåværende bakgrunn
+cmdPlayPrev=Spill nå
+cmdViewPrev=View>>
+cmdEditPrev=Endre
+cmdNewPrev=Ny
+cmdCancelPrev=Avbryt
+lblCapNumPrevTiles=Nº brikker:
+lblCapFreePrevTiles=Frie brikker
+lblCapPrevFav01=<<Favoritter
+lblCapPrevFav02=Denne listen er ogsä tilgjengelig under menyvalget Layout ogderetter Favoritter. Du kan dra layouts fra listen over til Favoritter.
+#------------------------------------------
+# Formulario Previsuzliar Tipo Fichas
+lblCracks(1)=[4 brikker]
+lblBamboos(1)=[4 brikker]
+lblDots(1)=[4 brikker]
+lblFlowers(1)=[Ett par]
+lblSeasons(1)=[Ett par]
+lblWinds(1)=[4 brikker]
+lblDragons(1)=[4 brikker]
+#------------------------------------------
+# Form Captions
+FrmCaption(FrmMain)=VbMahjongg
+FrmCaption(frmLoadLays)=Velg layout
+FrmCaption(frmViewTilesets)=Forhåndsvisning av brikkesett
+#------------------------------------------
+# Debug Information
+lblInfoCountTiles=Brikker:
+lblInfoFreeTiles=Frie brikker:
+lblInfoMoves=Frie par:
+lblInfoTime=Tid:
+lblInfoNeededTiles=Needed tiles:
+lblDescLayout=Beskrivelse:
+lblInfoTimeAttackLives=Time Attack Liv:
+#------------------------------------------
+# Mensajes
+MsgInfo0001=Fil
+MsgInfo0002=finnes fra før!!!
+MsgInfo0003=¿Vill du overskrive denne filen?
+MsgInfo0004=Fri
+MsgInfo0005=Trenger
+MsgInfo0006=Par
+MsgInfo0007=Advarsel
+MsgInfo0008=Lagre layout
+MsgInfo0009=Du må gi ditt nye layout ett navn!
+MsgInfo0010=Filen har blitt lagret som Temporary.lay
+MsgInfo0011=Dette oppsettet er ikke spillbart. Du må ha flere brikker!
+MsgInfo0012=Feil antall brikker
+MsgInfo0013=Ikke flere muligheter!
+MsgInfo0014=Avslutt
+MsgInfo0015=Er du sikker på at du vil slette 'Hall of Fame'?
+MsgInfo0016=Vær så snill og skriv inn ditt navn!!!

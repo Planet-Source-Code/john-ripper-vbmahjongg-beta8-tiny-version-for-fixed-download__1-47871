@@ -1,0 +1,207 @@
+# Fichero de configuracion del idioma en lenguaje Catalan
+#
+# Los comentarios han de ser precedidos por el caracter #
+#
+# Los mensajes de error e informacion al usuario deben ir precedidos por la clave
+# MsgInfoXXXX=mensaje
+#
+# Los titulos de los formularios deben ir precedidos por la clave
+# FrmCaption(NOMBRE_FORMULARIO)=titulo
+#
+# Importante: 1) Los textos *NO* deben tener los caracteres "(", ")" o "="
+#             Si quieres poner ( ) usa [ ]. ex: [2 Jugadores] en lugar de (2 Jugadores)
+#	      2) No se debe dejar ningun espacio en blanco entre el =
+#		ex: mnuA =texto    <- MAL
+#		    mnuA= Texto    <- MAL
+#		    mnuA = Texto   <- MAL
+#		    mnuA=Texto     <- OK
+
+#------------------------------------------
+# Starup-Video config
+lblInitializeInfo(0)=vbMahjongg ha dectectat que la seva configuració actual de video es:
+lblInitializeInfo(1)=Es necessari una resolucio minima de 1024x768 pixels per fer funcionar aquest programa
+lblInitializeInfo(2)=vbMahjongg intentara cambiar el mode de video a la resolucio adecuada.:
+lblInitializeInfo(3)=Si despres de pitjar el boto Procedir no veus correctament la pantalla, pitja la tecla Enter para regresar al mode de video actual
+lblInitializeInfo(4)=Resolucio  Optima trovada:
+cmdOkInitialize=Cambiar Resolucio
+cmdEXITInitialize=Sortir
+lblInfoNotAvailableRes=La seva tarja de video o monitor no soporten resolucions de 1024 x 768 pixels!!! No podrà ejecutar vbMajongg amb la configuracio actual.
+lblInitVideoSkiping=Omitin............
+#------------------------------------------
+# Form Video Change
+lblInfoVideoChange=Es veu correctament aquesta pantalla?
+cmdVideoChanYES=SI
+cmdVideoChanNO=Provar altre resolucio
+lblVideoAuto=Realitzar el cambi de la configuracio de video de forma automatica la propera vegada.
+#------------------------------------------
+# Menu Diseño Piezas
+mnuDessingExit=Sortir
+mnuMDessingExit(0)=Guardar
+mnuMDessingExit(1)=Guardar com...
+mnuMDessingExit(2)=Jugar!!!
+mnuMDessingExit(4)=Sortir
+
+mnuMoveDessing=Moure Fons
+mnuMMoveDessing(0)=Moure Esquerra <
+mnuMMoveDessing(1)=Moure Dreta >
+mnuMMoveDessing(2)=Moure Adalt /\
+mnuMMoveDessing(3)=Moure Abaix \/
+#------------------------------------------
+# ToolBar
+lblToolNew(0)=Nou
+lblToolNew(1)=Nou
+lblToolBack(0)=Enrrera
+lblToolBack(1)=Enrrera
+lblToolHint(0)=Pista
+lblToolHint(1)=Pista
+lblToolReorder(0)=Mescla
+lblToolReorder(1)=Mescla
+lblToolPause(0)=Pausa
+lblToolPause(1)=Pausa
+lblToolMusic(0)=Musica
+lblToolMusic(1)=Musica
+lblToolDessings(0)=Disseny
+lblToolDessings(1)=Disseny
+lblToolHallFame(0)=Hall
+lblToolHallFame(1)=Hall
+lblToolHelp(0)=Ajuda
+lblToolHelp(1)=Ajuda
+lblToolExit(0)=Sortir
+lblToolExit(1)=Sortir
+#------------------------------------------
+# Hall Fame Form
+lblHFSelectBoard=Seleccioni un Tauler
+lblHallFameInputPlayerName=Nom..Jugador
+lblHallFameInfoPlayerName=Jugador..Nom
+lblHallFameInfoTime=Temps
+lblHallFameDate=Data
+cmdHallFameErase=EsBorrar Puntuacions
+cmdHallFameOk=Ok
+#------------------------------------------
+# Previus Hall Fame Form
+lblprevHFcongratulations(0)=Felicitacions!
+lblprevHFcongratulations(1)=Ha Acabat en bon lloc!
+lblprevHFcongratulations(2)=Entri en el Hall of Fame!
+lblprevHFcongratulations(3)=El teu temps es
+cmdprevHFAction=Gracies!
+#------------------------------------------
+# Menu Principal
+mnuGame=Joc
+mnuMGame(0)=Nou
+mnuMGame(2)=Dissenys Aleatoris
+mnuMGame(4)=Carrega Joc
+mnuMGame(5)=Guarda Joc
+mnuMGame(7)=Sortir
+# Menu Principal -> Juego -> Nuevo
+mnuMNewGame(0)=Últim Joc
+mnuMNewGame(2)=Mahjongg
+mnuMNewGame(3)=Mahjongg Time Attack
+mnuMNewGame(4)=Mahjongg [2 Jugadors]
+mnuMNewGame(5)=Mahjongg [Internet/Lan]
+mnuMNewGame(7)=Memory
+# Menu Memory
+mnuMMemory(0)=Facil
+mnuMMemory(1)=Dificil
+mnuMMemory(2)=Extrem
+mnuMNewGame(9)=Clicks
+
+# Menu Ver
+mnuView=Mirar
+# Ver -> Numeros y letras
+mnuMView(0)=Mostra Nombres i lletres en les Fitxes
+
+# Menu Configuracion
+mnuConfig=Configuració
+mnuMConfig(0)=Dificultad Mahjongg
+mnuMConfig(2)=Idioma
+# Menu Configuracion -> Dificultad Mahjongg
+mnuLevelMahjongg(0)=Facil
+mnuLevelMahjongg(1)=Dificil
+mnuMConfig(4)=Format Data
+mnuMConfig(6)=Destacar
+# Menu Configuracion -> Destacar
+mnuHighlight(0)=Nada
+mnuHighlight(2)=Rectangle Vermell
+mnuHighlight(3)=Rectangle Verd
+mnuHighlight(4)=Rectangle Blau
+mnuMConfig(8)=Sona Musica Inici
+mnuMConfig(9)=Efectes Sonors
+mnuMConfig(10)=Habilitar Musica
+mnuMConfig(11)=Cambi Res. Automatica
+
+# Menu Fondo Escritorio
+mnuBackGround=Fons Escriptori
+mnuMBackGround(0)=Busqueda en diskett
+mnuMBackGround(1)=Color Plà
+
+# Menu Selecciona Fitxa
+mnuTiles=Selecciona Fitxa
+mnuMTiles(0)=Busqueda en diskett
+mnuMTiles(1)=Veure Fitxes
+
+# Menu Diseño
+mnuDessing=Disseny
+mnuMDessing(0)=Seleccioni Disseny
+mnuMDessing(1)=Crear Nou Disseny
+mnuMDessing(2)=Editar Disseny
+mnuMDessing(3)=Favorits
+
+# Menu Musica
+mnuMusic=Musica
+mnuMMusic(0)=Musica Aleatoria
+
+# Menu Ayuda
+mnuHelp=Ajuda
+#------------------------------------------
+# Formulario de Seleccion de Diseño
+lblPrevSelectBackGND=Selecció amb el fons actual
+cmdPlayPrev=Jugar aquest.
+cmdViewPrev=Veure>>
+cmdEditPrev=Editar
+cmdNewPrev=Nou
+cmdCancelPrev=Cancelar
+lblCapNumPrevTiles=Nº de Fitxes:
+lblCapFreePrevTiles=Fitxes Lliures
+lblCapPrevFav01=<<Favorits
+lblCapPrevFav02=Aquesta es la llista de dissenys que apareixen el menú. Pot agregar taulers arrastran desde amunt i soltar. Esborri per fer d'altres nous
+#------------------------------------------
+# Formulario Previsuzliar Tipo Fichas
+lblCracks(1)=[4 Fitxes]
+lblBamboos(1)=[4 Fitxes]
+lblDots(1)=[4 Fitxes]
+lblFlowers(1)=[Una parella]
+lblSeasons(1)=[Una parella]
+lblWinds(1)=[4 Fitxes]
+lblDragons(1)=[4 Fitxes]
+#------------------------------------------
+# Form Captions
+FrmCaption(FrmMain)=VbMahjongg
+FrmCaption(frmLoadLays)=Selecció de Dissenys
+FrmCaption(frmViewTilesets)=Previsualizació de las peçes
+#------------------------------------------
+# Debug Information
+lblInfoCountTiles=Fitxes:
+lblInfoFreeTiles=Fitxes Lliures:
+lblInfoMoves=Moviments:
+lblInfoTime=Temps:
+lblInfoNeededTiles=Fitxes Necessaries:
+lblDescLayout=Descripcio:
+lblInfoTimeAttackLives=Time Attack Vides:
+#------------------------------------------
+# Mensajes
+MsgInfo0001=El archiu
+MsgInfo0002=ya existeix!!!
+MsgInfo0003=Desitja sobreescriu-re'l?
+MsgInfo0004=Lliures
+MsgInfo0005=Necessaries
+MsgInfo0006=Concurrencies
+MsgInfo0007=Atenció
+MsgInfo0008=Salvar Disseny
+MsgInfo0009=Tens que especificar una descripció pel disseny que has editat
+MsgInfo0010=El fitxer s'ha guardar temporalment com Temporary.lay
+MsgInfo0011=Aquest tauler no es jugable!!!. Deixa mes espaci entre las peçes.
+MsgInfo0012=El nombre de fitxes es incorrecte!!!
+MsgInfo0013=No quedan mes moviments!!!
+MsgInfo0014=Sortir
+MsgInfo0015=Estas segur de que vols esborrar aquest Hall Fame?
+MsgInfo0016=Siusplau introduexi el nom del jugador!!!

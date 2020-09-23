@@ -1,0 +1,207 @@
+# Fichero de configuracion del idioma en lenguaje Español
+#
+# Los comentarios han de ser precedidos por el caracter #
+#
+# Los mensajes de error e informacion al usuario deben ir precedidos por la clave
+# MsgInfoXXXX=mensaje
+#
+# Los titulos de los formularios deben ir precedidos por la clave
+# FrmCaption(NOMBRE_FORMULARIO)=titulo
+#
+# Importante: 1) Los textos *NO* deben tener los caracteres "(", ")" o "="
+#             Si quieres poner ( ) usa [ ]. ex: [2 Jugadores] en lugar de (2 Jugadores)
+#	      2) No se debe dejar ningun espacio en blanco entre el =
+#		ex: mnuA =texto    <- MAL
+#		    mnuA= Texto    <- MAL
+#		    mnuA = Texto   <- MAL
+#		    mnuA=Texto     <- OK
+
+#------------------------------------------
+# Starup-Video config
+lblInitializeInfo(0)=vbMahjongg ha dectectado que su configuración actual de video es:
+lblInitializeInfo(1)=Es necesario una resolucion minima de 1024x768 pixels para poder ejecutar este programa
+lblInitializeInfo(2)=vbMahjongg va a intentar cambiar el modo de video a la resolucion adecuada.:
+lblInitializeInfo(3)=Si despues de pulsar el boton Cambiar Resolucion no ves correctamente la pantalla, pulsa la tecla Enter para regresar al modo de video actual
+lblInitializeInfo(4)=Resolucion  Optima encontrada:
+cmdOkInitialize=Cambiar Resolucion
+cmdEXITInitialize=Salir
+lblInfoNotAvailableRes=Su tarjeta de video o monitor no soportan resoluciones de 1024 x 768 pixels!!! No podrá ejecutar vbMajongg con la configuracion actual.
+lblInitVideoSkiping=Omitiendo............
+#------------------------------------------
+# Form Video Change
+lblInfoVideoChange=¿Se ve correctamente esta pantalla?
+cmdVideoChanYES=SI
+cmdVideoChanNO=Provar otra resolucion
+lblVideoAuto=Realizar el cambio de la configuracion de video de forma automatica para la proxima vez.
+#------------------------------------------
+# Menu Diseño Piezas
+mnuDessingExit=Salir
+mnuMDessingExit(0)=Guardar
+mnuMDessingExit(1)=Guardar como...
+mnuMDessingExit(2)=Jugar!!!
+mnuMDessingExit(4)=Salir
+
+mnuMoveDessing=Mueve Fondo
+mnuMMoveDessing(0)=Mueve Izquierda <
+mnuMMoveDessing(1)=Mueve Derecha >
+mnuMMoveDessing(2)=Mueve Arriba /\
+mnuMMoveDessing(3)=Mueve Abajo \/
+#------------------------------------------
+# ToolBar
+lblToolNew(0)=Nuevo
+lblToolNew(1)=Nuevo
+lblToolBack(0)=Atras
+lblToolBack(1)=Atras
+lblToolHint(0)=Pista
+lblToolHint(1)=Pista
+lblToolReorder(0)=Mezcla
+lblToolReorder(1)=Mezcla
+lblToolPause(0)=Pausa
+lblToolPause(1)=Pausa
+lblToolMusic(0)=Musica
+lblToolMusic(1)=Musica
+lblToolDessings(0)=Diseños
+lblToolDessings(1)=Diseños
+lblToolHallFame(0)=Hall
+lblToolHallFame(1)=Hall
+lblToolHelp(0)=Ayuda
+lblToolHelp(1)=Ayuda
+lblToolExit(0)=Salir
+lblToolExit(1)=Salir
+#------------------------------------------
+# Hall Fame Form
+lblHFSelectBoard=Seleccione un Tablero
+lblHallFameInputPlayerName=Nombre..Jugador
+lblHallFameInfoPlayerName=Jugador..Nombre
+lblHallFameInfoTime=Tiempo
+lblHallFameDate=Fecha
+cmdHallFameErase=Borrar Puntuaciones
+cmdHallFameOk=Ok
+#------------------------------------------
+# Previus Hall Fame Form
+lblprevHFcongratulations(0)=Felicitaciones!
+lblprevHFcongratulations(1)=Acabo en buen lugar!
+lblprevHFcongratulations(2)=Entre en el Hall of Fame!
+lblprevHFcongratulations(3)=Tu tiempo es
+cmdprevHFAction=Gracias!
+#------------------------------------------
+# Menu Principal
+mnuGame=Juego
+mnuMGame(0)=Nuevo
+mnuMGame(2)=Diseños Aleatorios
+mnuMGame(4)=Carga Juego
+mnuMGame(5)=Guarda Juego
+mnuMGame(7)=Salir
+# Menu Principal -> Juego -> Nuevo
+mnuMNewGame(0)=Último Juego
+mnuMNewGame(2)=Mahjongg
+mnuMNewGame(3)=Mahjongg Time Attack
+mnuMNewGame(4)=Mahjongg [2 Jugadores]
+mnuMNewGame(5)=Mahjongg [Internet/Lan]
+mnuMNewGame(7)=Memory
+# Menu Memory
+mnuMMemory(0)=Facil
+mnuMMemory(1)=Dificil
+mnuMMemory(2)=Extremo
+mnuMNewGame(9)=Clicks
+
+# Menu Ver
+mnuView=Ver
+# Ver -> Numeros y letras
+mnuMView(0)=Muestra Numeros y letras en las Fichas
+
+# Menu Configuracion
+mnuConfig=Configuración
+mnuMConfig(0)=Dificultad Mahjongg
+mnuMConfig(2)=Idioma
+# Menu Configuracion -> Dificultad Mahjongg
+mnuLevelMahjongg(0)=Facil
+mnuLevelMahjongg(1)=Dificil
+mnuMConfig(4)=Formato Fecha
+mnuMConfig(6)=Destacar
+# Menu Configuracion -> Destacar
+mnuHighlight(0)=Nada
+mnuHighlight(2)=Rectangulo Rojo
+mnuHighlight(3)=Rectangulo Verde
+mnuHighlight(4)=Rectangulo Azul
+mnuMConfig(8)=Suena Musica Inicio
+mnuMConfig(9)=Efectos Sonoros
+mnuMConfig(10)=Habilitar Musica
+mnuMConfig(11)=Cambio Res. Automatico
+
+# Menu Fondo Escritorio
+mnuBackGround=Fondo Escritorio
+mnuMBackGround(0)=Busqueda en diskett
+mnuMBackGround(1)=Color Plano
+
+# Menu Elige Ficha
+mnuTiles=Elige Ficha
+mnuMTiles(0)=Busqueda en diskett
+mnuMTiles(1)=Ver Fichas
+
+# Menu Diseño
+mnuDessing=Diseño
+mnuMDessing(0)=Seleccione Diseño
+mnuMDessing(1)=Crear Nuevo Diseño
+mnuMDessing(2)=Editar Diseño
+mnuMDessing(3)=Favoritos
+
+# Menu Musica
+mnuMusic=Musica
+mnuMMusic(0)=Musica Aleatoria
+
+# Menu Ayuda
+mnuHelp=Ayuda
+#------------------------------------------
+# Formulario de Seleccion de Diseño
+lblPrevSelectBackGND=Seleccione con el fondo actual
+cmdPlayPrev=Jugar este.
+cmdViewPrev=Ver>>
+cmdEditPrev=Edite
+cmdNewPrev=Nuevo
+cmdCancelPrev=Cancele
+lblCapNumPrevTiles=Nº de Fichas:
+lblCapFreePrevTiles=Fichas Libres
+lblCapPrevFav01=<<Favoritos
+lblCapPrevFav02=Esta es la lista de diseños que aparece en el menú. Puede agregar tableros arrastrando desde arriba y soltando. Borre para hacer otros nuevos
+#------------------------------------------
+# Formulario Previsuzliar Tipo Fichas
+lblCracks(1)=[4 fichas]
+lblBamboos(1)=[4 fichas]
+lblDots(1)=[4 fichas]
+lblFlowers(1)=[Una pareja]
+lblSeasons(1)=[Una pareja]
+lblWinds(1)=[4 fichas]
+lblDragons(1)=[4 fichas]
+#------------------------------------------
+# Form Captions
+FrmCaption(FrmMain)=VbMahjongg
+FrmCaption(frmLoadLays)=Selección de Diseños
+FrmCaption(frmViewTilesets)=Previsualizacion de las piezas
+#------------------------------------------
+# Debug Information
+lblInfoCountTiles=Fichas:
+lblInfoFreeTiles=Fichas Libres:
+lblInfoMoves=Movimientos:
+lblInfoTime=Tiempo:
+lblInfoNeededTiles=Fichas Necesarias:
+lblDescLayout=Descripcion:
+lblInfoTimeAttackLives=Time Attack Vidas:
+#------------------------------------------
+# Mensajes
+MsgInfo0001=El archivo
+MsgInfo0002=ya existe!!!
+MsgInfo0003=¿Desea Sobreescribirlo?
+MsgInfo0004=Libres
+MsgInfo0005=Necesarias
+MsgInfo0006=Concurrencias
+MsgInfo0007=Atención
+MsgInfo0008=Salvar Diseño
+MsgInfo0009=Debes especificar una descripción para el diseño que has editado
+MsgInfo0010=El fichero a sido guardado temporalmente como Temporary.lay
+MsgInfo0011=Este tablero no es jugable!!!. Deja mas espacio entre las piezas.
+MsgInfo0012=El numero de fichas es incorrecto!!!
+MsgInfo0013=No quedan mas movimientos!!!
+MsgInfo0014=Salir
+MsgInfo0015=¿Estas seguro que quieres borrar este Hall Fame?
+MsgInfo0016=Porfavor introduce el nombre del jugador!!!

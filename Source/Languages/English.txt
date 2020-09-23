@@ -1,0 +1,208 @@
+# Fichero de configuracion del idioma en lenguaje English
+#
+# Los comentarios han de ser precedidos por el caracter #
+#
+# Los mensajes de error e informacion al usuario deben ir precedidos por la clave
+# MsgInfoXXXX=mensaje
+#
+# Los titulos de los formularios deben ir precedidos por la clave
+# FrmCaption(NOMBRE_FORMULARIO)=titulo
+#
+# Importante: 1) Los textos *NO* deben tener los caracteres "(", ")" o "="
+#             Si quieres poner ( ) usa [ ]. ex: [2 Jugadores] en lugar de (2 Jugadores)
+#	      2) No se debe dejar ningun espacio en blanco entre el =
+#		ex: mnuA =texto    <- MAL
+#		    mnuA= Texto    <- MAL
+#		    mnuA = Texto   <- MAL
+#		    mnuA=Texto     <- OK
+
+#------------------------------------------
+# Starup-Video config
+lblInitializeInfo(0)=vbMahjongg has dectect that your video configuration is:
+lblInitializeInfo(1)=A minimun resolution of 1024x768 pixels is requiered in  order to play this game
+lblInitializeInfo(2)=vbMahjongg will attempt to Change video mode to:
+lblInitializeInfo(3)=If, after push the Change button, the video mode does not display properly, press Enter Key to restore your original video resolution.
+lblInitializeInfo(4)=Optimal Resolution found:
+cmdOkInitialize=Change
+cmdEXITInitialize=Exit
+lblInfoNotAvailableRes=Your video card and/or monitor does not support resolutions of 1024 x 768 pixels!!! You cannot execute vbMahjongg with your present configuration.
+lblInitVideoSkiping=Skipping............
+#------------------------------------------
+# Form Video Change
+lblInfoVideoChange=Can you display this window?
+cmdVideoChanYES=YES
+cmdVideoChanNO=Change to another resolution
+lblVideoAuto=Automatically change video resolution the next time.
+#------------------------------------------
+
+# Menu Diseño Piezas
+mnuDessingExit=Exit
+mnuMDessingExit(0)=Save
+mnuMDessingExit(1)=Save as...
+mnuMDessingExit(2)=Play!!!
+mnuMDessingExit(4)=Exit
+
+mnuMoveDessing=Move Design
+mnuMMoveDessing(0)=Move Left <
+mnuMMoveDessing(1)=Move Right >
+mnuMMoveDessing(2)=Move Up /\
+mnuMMoveDessing(3)=Move Down \/
+#------------------------------------------
+# ToolBar
+lblToolNew(0)=New
+lblToolNew(1)=New
+lblToolBack(0)=Back
+lblToolBack(1)=Back
+lblToolHint(0)=Hint
+lblToolHint(1)=Hint
+lblToolReorder(0)=Reorder
+lblToolReorder(1)=Reorder
+lblToolPause(0)=Pause
+lblToolPause(1)=Pause
+lblToolMusic(0)=Music
+lblToolMusic(1)=Music
+lblToolDessings(0)=Designs
+lblToolDessings(1)=Designs
+lblToolHallFame(0)=Hall
+lblToolHallFame(1)=Hall
+lblToolHelp(0)=Help
+lblToolHelp(1)=Help
+lblToolExit(0)=Exit
+lblToolExit(1)=Exit
+#------------------------------------------
+# Hall Fame Form
+lblHFSelectBoard=Select a board
+lblHallFameInputPlayerName=Name..Player
+lblHallFameInfoPlayerName=Player..Name
+lblHallFameInfoTime=Time
+lblHallFameDate=Date
+cmdHallFameErase=Erase Scores
+cmdHallFameOk=Ok
+#------------------------------------------
+# Previus Hall Fame Form
+lblprevHFcongratulations(0)=Congratulations!
+lblprevHFcongratulations(1)=Finished in good position!
+lblprevHFcongratulations(2)=Enter the Hall of Fame!
+lblprevHFcongratulations(3)=Your time is
+cmdprevHFAction=Thanks!
+#------------------------------------------
+# Menu Principal
+mnuGame=Game
+mnuMGame(0)=New
+mnuMGame(2)=Random Layouts
+mnuMGame(4)=Load Game
+mnuMGame(5)=Save Game
+mnuMGame(7)=Exit
+# Menu Principal -> Juego -> Nuevo
+mnuMNewGame(0)=Last Game
+mnuMNewGame(2)=Mahjongg
+mnuMNewGame(3)=Mahjongg Time Attack
+mnuMNewGame(4)=Mahjongg [2 Players]
+mnuMNewGame(5)=Mahjongg [Internet/Lan]
+mnuMNewGame(7)=Memory
+# Menu Memory
+mnuMMemory(0)=Easy
+mnuMMemory(1)=Hard
+mnuMMemory(2)=Extreme
+mnuMNewGame(9)=Clicks
+
+# Menu Ver
+mnuView=View
+# Ver-> numeros y letras
+mnuMView(0)=Show Numerals and Letters on Tilesets
+
+# Menu Configuracion
+mnuConfig=Config
+mnuMConfig(0)=Mahjongg Level
+mnuMConfig(2)=Language
+# Menu Configuracion -> Dificultad Mahjongg
+mnuLevelMahjongg(0)=Easy
+mnuLevelMahjongg(1)=Hard
+mnuMConfig(4)=Date Format
+mnuMConfig(6)=Highlight
+# Menu Configuracion -> Destacar
+mnuHighlight(0)=Nothing
+mnuHighlight(2)=Red Rectangle
+mnuHighlight(3)=Green Rectangle
+mnuHighlight(4)=Blue Rectangle
+mnuMConfig(8)=Play music at start
+mnuMConfig(9)=Sound Fx
+mnuMConfig(10)=Enable Music
+mnuMConfig(11)=Change Res. Automatic.
+
+# Menu Fondo Escritorio
+mnuBackGround=BackGround
+mnuMBackGround(0)=Search on diskette
+mnuMBackGround(1)=Plain Color
+
+# Menu Elige Ficha
+mnuTiles=Select TileSet
+mnuMTiles(0)=Search on diskette
+mnuMTiles(1)=View Tiles
+
+# Menu Diseño
+mnuDessing=Design
+mnuMDessing(0)=Select Design
+mnuMDessing(1)=New Design
+mnuMDessing(2)=Edit Design
+mnuMDessing(3)=Favorites
+
+# Menu Musica
+mnuMusic=Music
+mnuMMusic(0)=Random Music
+
+# Menu Ayuda
+mnuHelp=Help
+#------------------------------------------
+# Formulario de Seleccion de Diseño
+lblPrevSelectBackGND=Select with present Background
+cmdPlayPrev=Play this.
+cmdViewPrev=View>>
+cmdEditPrev=Edit
+cmdNewPrev=New
+cmdCancelPrev=Cancel
+lblCapNumPrevTiles=No. Tiles:
+lblCapFreePrevTiles=Free Tiles
+lblCapPrevFav01=<<Favorites
+lblCapPrevFav02=This is the list of designs that appears in the menu. You can add boards by dragging and dropping from above. Delete to make new ones.
+#------------------------------------------
+# Formulario Previsuzliar Tipo Fichas
+lblCracks(1)=[4 Tiles]
+lblBamboos(1)=[4 Tiles]
+lblDots(1)=[4 Tiles]
+lblFlowers(1)=[One pair]
+lblSeasons(1)=[One pair]
+lblWinds(1)=[4 Tiles]
+lblDragons(1)=[4 Tiles]
+#------------------------------------------
+# Form Captions
+FrmCaption(FrmMain)=VbMahjongg
+FrmCaption(frmLoadLays)=Selection of Designs
+FrmCaption(frmViewTilesets)=Tiles Preview
+#------------------------------------------
+# Debug Information
+lblInfoCountTiles=Tiles:
+lblInfoFreeTiles=Free Tiles:
+lblInfoMoves=Movements:
+lblInfoTime=Time:
+lblInfoNeededTiles=Needed Tiles:
+lblDescLayout=Description:
+lblInfoTimeAttackLives=Time Attack Lives:
+#------------------------------------------
+# Mensajes
+MsgInfo0001=File
+MsgInfo0002=exists!!!
+MsgInfo0003=¿Do you want to overwrite?
+MsgInfo0004=Free
+MsgInfo0005=Nedeed
+MsgInfo0006=Matches
+MsgInfo0007=Attention
+MsgInfo0008=Save Design
+MsgInfo0009=Please add a description to the designed layout.
+MsgInfo0010=The file has been saved temporarirly 
+MsgInfo0011=This board its not playable!!!. Please use more space between tiles
+MsgInfo0012=Incorrect number of tiles
+MsgInfo0013=No more moves!!!
+MsgInfo0014=Exit
+MsgInfo0015=Are you sure you want to erase the Hall of Fame?
+MsgInfo0016=Please, enter a player name!!!

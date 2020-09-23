@@ -1,0 +1,232 @@
+# This is the File with French Language
+#
+# The comments may be precced by character #
+#
+# The error and Information messages may be precced by the Key:
+# MsgInfoXXXX=message
+#
+# The Form Captions may be precced by the key:
+# FrmCaption(NOMBRE_FORMULARIO)=title
+#
+# Important:  1) The texts *NOT* have this characters "(", ")" or "="
+#             If you want put ( ) use [ ]. ex: [2 Players]  NOT This: (2 Players)
+#	      2) *NO* There have any Blank Space betwee =
+#		ex: mnuA =text    <- BAD
+#		    mnuA= Text    <- BAD
+#		    mnuA = Text   <- DAD
+#		    mnuA=Text     <- OK
+#
+# Translation made by Eric Natale.
+#------------------------------------------
+# Starup-Video config
+lblInitializeInfo(0)=vbMahjongg a détecté que votre résolution est:
+lblInitializeInfo(1)=Une résolution minimum des 1024 pixels x 768 pixels est exigée afin de jouer ce jeu.
+lblInitializeInfo(2)=vbMahjongg essayera de changer la résolution en:
+lblInitializeInfo(3)=Si après que vous cliquetez le bouton Changer, la résolution ne montre pas correctement, pression Entree pour reconstituer votre résolution originale.
+lblInitializeInfo(4)=Résolution optimale trouvée:
+cmdOkInitialize=Changer
+cmdEXITInitialize=Sortie
+lblInfoNotAvailableRes=Votre carte vidéo ou moniteur ne soutient pas résolutions de 1024 pixels X 768 pixels!!! Vous ne pouvez pas exécuter le jeu avec votre configuration.
+lblInitVideoSkiping=Passant............
+#------------------------------------------
+# Form Video Change
+lblInfoVideoChange=Pouvez-vous montrer cette fenêtre?
+cmdVideoChanYES=OUI
+cmdVideoChanNO=Changez en une autre résolution
+lblVideoAuto=Changez automatiquement la résolution la prochaine fois.
+#------------------------------------------
+
+# Menu Diseño Piezas
+mnuDessingExit=Sortie
+mnuMDessingExit(0)=Sauver
+mnuMDessingExit(1)=Sauver comme...
+mnuMDessingExit(2)=Jouer!!!
+mnuMDessingExit(4)=Sortie
+
+mnuMoveDessing=Déplacer Dessin
+mnuMMoveDessing(0)=Déplacer Droite <
+mnuMMoveDessing(1)=Déplacer Gauche >
+mnuMMoveDessing(2)=Déplacer Haut /\
+mnuMMoveDessing(3)=Déplacer Bas \/
+#------------------------------------------
+# ToolBar
+lblToolNew(0)=Nouveau
+lblToolNew(1)=Nouveau
+lblToolBack(0)=Arrière
+lblToolBack(1)=Arrière
+lblToolHint(0)=Conseil
+lblToolHint(1)=Conseil
+lblToolReorder(0)=Reordonner
+lblToolReorder(1)=Reordonner
+lblToolPause(0)=Pause
+lblToolPause(1)=Pause
+lblToolMusic(0)=Musique
+lblToolMusic(1)=Musique
+lblToolDessings(0)=Dessins
+lblToolDessings(1)=Dessins
+lblToolHallFame(0)=Salle
+lblToolHallFame(1)=Salle
+lblToolHelp(0)=Aide
+lblToolHelp(1)=Aide
+lblToolExit(0)=Sortie
+lblToolExit(1)=Sortie
+#------------------------------------------
+# Hall Fame Form
+lblHFSelectBoard=Choisissez un tableau
+lblHallFameInputPlayerName=Nom..Joueur
+lblHallFameInfoPlayerName=Joueur..Nom
+lblHallFameInfoTime=Temps
+lblHallFameDate=Date
+cmdHallFameErase=Effacez Scores
+cmdHallFameOk=Ok
+#------------------------------------------
+# Previus Hall Fame Form
+lblprevHFcongratulations(0)=Félicitations!
+lblprevHFcongratulations(1)=Tres bon rang!
+lblprevHFcongratulations(2)=Entrez dans la Salle de la Gloire!
+lblprevHFcongratulations(3)=Votre temps est
+cmdprevHFAction=Merci!
+#------------------------------------------
+# Menu Principal
+mnuGame=Jeu
+mnuMGame(0)=Nouveau
+mnuMGame(2)=Dispositions Aléatoires
+mnuMGame(4)=Ouvrir Jeu
+mnuMGame(5)=Sauver Jeu
+mnuMGame(7)=Sortie
+# Menu Principal -> Juego -> Nuevo
+mnuMNewGame(0)=Jeu Final
+mnuMNewGame(2)=Mahjongg
+mnuMNewGame(3)=Mahjongg Time Attack
+mnuMNewGame(4)=Mahjongg [2 Joueurs]
+mnuMNewGame(5)=Mahjongg [Internet/LAN]
+mnuMNewGame(7)=Mémoire
+# Menu Memory
+mnuMMemory(0)=Facile
+mnuMMemory(1)=Difficile
+mnuMMemory(2)=Expert
+mnuMNewGame(9)=Déclics
+
+# Menu Ver
+mnuView=Voir
+# Ver-> Numeros y letras
+mnuMView(0)=Montrer les numéros sur les Tiles
+
+# Menu Configuracion
+mnuConfig=Config
+mnuMConfig(0)=Mahjongg Niveau
+mnuMConfig(2)=Langue
+# Menu Configuracion -> Dificultad Mahjongg
+mnuLevelMahjongg(0)=Facile
+mnuLevelMahjongg(1)=Difficile
+mnuMConfig(4)=Format de Date
+mnuMConfig(6)=Souligner
+# Menu Configuracion -> Destacar
+mnuHighlight(0)=Rien
+mnuHighlight(2)=Rectangle Rouge
+mnuHighlight(3)=Rectangle Bleu
+mnuHighlight(4)=Rectangle Vert
+mnuMConfig(8)=Jouer la musique au début
+mnuMConfig(9)=Bruitage
+mnuMConfig(10)=Habiliter Musique
+mnuMConfig(11)=Changez Résolution Automatiquement
+
+# Menu Fondo Escritorio
+mnuBackGround=Fond de Bureau
+mnuMBackGround(0)=Recherche sur la disquette 
+mnuMBackGround(1)=Couleur Plat
+
+# Menu Elige Ficha
+mnuTiles=Choisissez Tileset
+mnuMTiles(0)=Recherche sur la disquette
+mnuMTiles(1)=Voir Tuiles
+
+# Menu Diseño
+mnuDessing=Dessin
+mnuMDessing(0)=Choisissez Dessin
+mnuMDessing(1)=Nouveau Dessin
+mnuMDessing(2)=Edit Dessin
+mnuMDessing(3)=Favoris
+
+# Menu Musica
+mnuMusic=Music
+mnuMMusic(0)=Musique Aléatoire
+
+# Menu Ayuda
+mnuHelp=Aide
+#------------------------------------------
+# Formulario de Seleccion de Diseño
+lblPrevSelectBackGND=Choisissez avec le fond actuel
+cmdPlayPrev=Jouer ce.
+cmdViewPrev=Voir>>
+cmdEditPrev=Edit
+cmdNewPrev=Nouveau
+cmdCancelPrev=Annuler
+lblCapNumPrevTiles=Nº de Tuiles:
+lblCapFreePrevTiles=Tuiles Libres
+lblCapPrevFav01=<<Favoris
+lblCapPrevFav02=C'est la liste de dessins qui apparaît dans le menu. Tu peux ajouter des tableaux en entraînant depuis en haut et en détachant. Tu peux Effacer pour faire autres nouveaux.
+#------------------------------------------
+# Formulario Previsuzliar Tipo Fichas
+lblCracks(1)=[4 Tuiles]
+lblBamboos(1)=[4 Tuiles]
+lblDots(1)=[4 Tuiles]
+lblFlowers(1)=[Une paire]
+lblSeasons(1)=[Une paire]
+lblWinds(1)=[4 Tuiles]
+lblDragons(1)=[4 Tuiles]
+#------------------------------------------
+# 'ToolBar'
+lblToolNew(0)=Nouveau
+lblToolNew(1)=Nouveau
+lblToolBack(0)=Arrière
+lblToolBack(1)=Arrière
+lblToolHint(0)=Conseil
+lblToolHint(1)=Conseil
+lblToolReorder(0)=Reordonner
+lblToolReorder(1)=Reordonner
+lblToolPause(0)=Pause
+lblToolPause(1)=Pause
+lblToolMusic(0)=Musique
+lblToolMusic(1)=Musique
+lblToolDessings(0)=Dessins
+lblToolDessings(1)=Dessins
+lblToolHallFame(0)=Salle
+lblToolHallFame(1)=Salle
+lblToolHelp(0)=Aide
+lblToolHelp(1)=Aide
+lblToolExit(0)=Sortie
+lblToolExit(1)=Sortie
+#------------------------------------------
+# Form Captions
+FrmCaption(FrmMain)=VbMahjongg
+FrmCaption(frmLoadLays)=Sélection de Dessins
+FrmCaption(frmViewTilesets)=Previsualisation des pièces
+#------------------------------------------
+# Debug Information
+lblInfoCountTiles=Tuiles:
+lblInfoFreeTiles=Tuiles Libres:
+lblInfoMoves=Coups:
+lblInfoTime=Temps:
+lblInfoNeededTiles=Tuiles Nécessaires:
+lblDescLayout=Description:
+lblInfoTimeAttackLives=Time Attack Vies:
+#------------------------------------------
+# Mensajes
+MsgInfo0001=Fichier
+MsgInfo0002=existe déjà!!!
+MsgInfo0003=Voulez-vous 'overwrite'?
+MsgInfo0004=Libres
+MsgInfo0005=Nécessaire
+MsgInfo0006=Matches
+MsgInfo0007=Attention
+MsgInfo0008=Sauver Dessin
+MsgInfo0009=Tu dois spécifier une description pour le dessin que tu as
+publiée.
+MsgInfo0010=Le fichier a été sauvé temporairement.
+MsgInfo0011=Ce tableau n'est pas jugable!!!. S'il vous plaît utiliser plus d'espace entre les tuiles.
+MsgInfo0012=Le nombre de tuiles est incorrect
+MsgInfo0013=Ils ne restent pas d'autres coups!!!
+MsgInfo0014=Sortie
+MsgInfo0015=Vous êtes sûr vous voulez effacer la Salle de la Gloire?
+MsgInfo0016=S'il vous plaît entrer le nom du joueur!!!
